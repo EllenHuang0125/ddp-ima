@@ -1,14 +1,14 @@
 body {
-    margin: 0;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 20px;
+    margin: 2;
+    font-family:'Merriweather', serif;
+    font-size: 25px;
     line-height: 30px;
 }
 
 /*Header section*/
 
 header{
-    background-color: black;
+    background-image: url('images/photo2.jpg');
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -27,18 +27,23 @@ header img{
 
 /*Main section*/
 main{
-    max-width: 800px;
+    background-color: rgb(236, 219, 215);
+    max-width: 1510px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 80px;
 }
 
 main img{
     max-width: 100%;
+    width: 220px;
+    border: 3px solid white;
+    margin: 2 auto;
 }
 
 main h2{
-    font-size: 30px;
-    margin: 40px 0 10px;
+    font-size: 40px;
+    margin: 50px 0 10px;
+    color:  rgb(115, 130, 95);
 }
 
 main a{
@@ -60,15 +65,15 @@ p.caption{
 /*Footer section*/
 
 footer{
-    background-color: black;
+    background-image: url('images/photo2.jpg');
     text-align: center;
-    padding: 50px;
+    padding: 10px;
 }
 
 footer p{
     margin: 0;
     color:  white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 footer a{
